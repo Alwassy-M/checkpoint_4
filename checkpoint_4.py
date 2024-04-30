@@ -43,6 +43,6 @@ print(list)
 print(sorted(list))
 
 #Exercise 9: Use reassignment to add an element to your tuple.
-new_element = 'The added element'
-new_tuple = tuple + (new_element,)
+
+new_tuple = tuple + ('new element',)
 print(new_tuple)
